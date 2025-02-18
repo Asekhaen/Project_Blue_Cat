@@ -1,0 +1,1 @@
+Pop <- ini_pop(patches, num_per_patch, max_age)
