@@ -29,7 +29,6 @@ bloodmeal_prob <- 0.65              #Probability that a female find a blood meal
 
 
 
-
 ###########################################
 #  INITIALISE POPULATION WITH ATTRIBUTES  #
 ###########################################
@@ -37,7 +36,7 @@ bloodmeal_prob <- 0.65              #Probability that a female find a blood meal
 
 # Function to create a chromosome
 
-ini_pop <- function(patches, num_per_patch, max_age, num_loci) {
+ini_pop <- function(patches, num_per_patch, max_age) {
   patches_pop <- list()
   
   for (i in 1:patches) {
@@ -61,6 +60,10 @@ ini_pop <- function(patches, num_per_patch, max_age, num_loci) {
 
 Pop <- ini_pop(patches, num_per_patch, max_age)
 
+
+
 write.csv(Pop, file = "Pop.csv")
+
+
 
 
