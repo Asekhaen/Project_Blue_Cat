@@ -56,11 +56,10 @@ ini_pop <- function(patches, num_per_patch, max_age) {
 
 
 
-Pop <- ini_pop(patches, num_per_patch, max_age)
+source('scripts/Pop.R')
 
 
-
-write.csv(Pop, file = "Pop.csv")
+write.csv(Pop, file = 'Output/Pop4.csv')
 
 
 
