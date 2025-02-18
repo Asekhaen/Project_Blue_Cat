@@ -4,9 +4,8 @@ library(tidyr)
 
 
 
-###########################################
-#               PARAMETERS                #
-###########################################
+
+#PARAMETER ####
 
 patches <- 1                        # Number of patches
 num_per_patch <- c(50,30,20)        # Initial number of individuals per patch
@@ -29,12 +28,11 @@ bloodmeal_prob <- 0.65              #Probability that a female find a blood meal
 
 
 
-###########################################
-#  INITIALISE POPULATION WITH ATTRIBUTES  #
-###########################################
+#INITIALISE POPULATION WITH ATTRIBUTES ##############
 
 
-# Function to create a chromosome
+
+#Function to create a chromosome
 
 ini_pop <- function(patches, num_per_patch, max_age) {
   patches_pop <- list()
