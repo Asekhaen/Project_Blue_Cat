@@ -2,5 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-.pdf
-.docx
+Data/*.pdf
+Data/*.docx
